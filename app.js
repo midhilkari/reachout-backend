@@ -11,7 +11,7 @@ var twilio = require("twilio");
 var swaggerUi = require("swagger-ui-express");
 
 //My routes
-//testing heroku
+
 //DB Connection
 mongoose
   .connect(process.env.DB, {
